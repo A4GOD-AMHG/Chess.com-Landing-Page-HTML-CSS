@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="header" xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	x="0px" y="0px" viewBox="0 0 378.6 318" style="enable-background:new 0 0 378.6 318;"
+	xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#svg);}
+</style>
+<linearGradient id="svg" gradientUnits="userSpaceOnUse" x1="55.207" y1="378.9879" x2="383.3171" y2="50.8878" gradientTransform="matrix(1 0 0 -1 22 343.26)">
+	<stop  offset="0.19" style="stop-color:#5d9948"/>
+	<stop  offset="0.94" style="stop-color:#3a6b2d"/>
+</linearGradient>
+<path class="st0" d="m123 42c-37 62-70 212 88 285 77 37 136 39 230 43l136 1h252.8V-1H267 146z"/>
+</svg>
