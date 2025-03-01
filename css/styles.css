@@ -74,12 +74,24 @@ img {
     }
 }
 
+@media (min-width: 1024px) {
+    .header__container {
+        height: 65rem;
+    }
+}
+
 .header__bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
     background-color: var(--black);
+}
+
+@media (min-width: 1024px) {
+    .header__bar {
+        height: 7rem;
+    }
 }
 
 .header__auth {
@@ -96,6 +108,13 @@ img {
     border-radius: 5px;
 }
 
+@media (min-width: 1024px) {
+    .header__signup {
+        padding: 4px 8px;
+        font-size: 2rem;
+    }
+}
+
 .header__login {
     color: var(--white);
     background-color: var(--login);
@@ -105,8 +124,22 @@ img {
     border-radius: 5px;
 }
 
+@media (min-width: 1024px) {
+    .header__login {
+        padding: 4px 8px;
+        font-size: 2rem;
+    }
+}
+
 .header__logo {
     width: 12rem;
+}
+
+@media (min-width: 1024px) {
+    .header__logo {
+        width: 18rem;
+        margin-left: 2rem;
+    }
 }
 
 @media (min-width: 768px) {
@@ -114,6 +147,14 @@ img {
         max-width: 40%;
     }
 }
+
+
+@media (min-width: 1024px) {
+    .header__col {
+        width: 40%;
+    }
+}
+
 
 .header__content {
     padding: 1rem 2rem;
@@ -131,10 +172,32 @@ img {
     }
 }
 
+@media (min-width: 1024px) {
+    .header__content {
+        gap: 2rem;
+        justify-content: space-between;
+        width: 70vw;
+        margin: auto;
+    }
+}
+
 .header__heading {
     text-align: center;
     font-size: 2.8rem;
     margin: 0;
+}
+
+.lg {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .header__heading {
+        font-size: 4rem;
+    }
+    .lg {
+        display: flex;
+    }
 }
 
 .header__rating {
@@ -144,6 +207,12 @@ img {
     margin: 1.5rem 0;
 }
 
+@media (min-width: 1024px) {
+    .header__rating {
+        font-size: 2.5rem;
+    }
+}
+
 .header__app {
     width: 75vw;
 }
@@ -151,6 +220,12 @@ img {
 @media (min-width: 768px) {
     .header__app {
         width: 65%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header__app {
+        width: 50%;
     }
 }
 
@@ -164,9 +239,15 @@ img {
     }
 }
 
+@media (min-width: 1024px) {
+    .header__join {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
+
 .header__ul {
     display: none;
-
 }
 
 @media (min-width: 768px) {
@@ -174,6 +255,13 @@ img {
         display: flex;
         flex-direction: column;
         list-style: outside;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header__ul {
+        font-size: 2.3rem;
+        margin-left: 10rem;
     }
 }
 
@@ -187,6 +275,13 @@ img {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+@media (min-width: 1024px) {
+    .header__stars {
+        font-size: 4rem;
+    }
 }
 
 .header__laststar {
@@ -209,6 +304,14 @@ img {
     .header__downloads {
         flex-direction: row;
         padding: 2rem 5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header__downloads {
+        width: 60vw;
+        margin: auto;
+        margin-top: 5rem;
     }
 }
 
@@ -236,6 +339,13 @@ img {
         display: flex;
     }
 }
+
+@media (min-width: 1024px) {
+    .header__qr {
+        padding: 3rem;
+    }
+}
+
 .header__button {
     width: 60vw;
     border: none;
@@ -269,6 +379,13 @@ img {
     }
 }
 
+@media (min-width: 1024px) {
+    .main__reviews {
+        padding: 3rem;
+        width: 50vw;
+    }
+}
+
 .main__review__stars {
     font-size: 4rem;
     background: var(--yellow);
@@ -284,16 +401,34 @@ img {
         width: 50%;
     }
 }
+
 .main__review__opinion {
     margin: 0;
 }
 
+@media (min-width: 1024px) {
+    .main__review__opinion {
+        font-size: 2rem;
+    }
+}
 .main__review__reviewer {
     margin: 1rem 0;
 }
 
+@media (min-width: 1024px) {
+    .main__review__reviewer {
+        font-size: 2rem;
+    }
+}
+
 .main__review__description {
     margin: 0;
+}
+
+@media (min-width: 1024px) {
+    .main__review__description {
+        font-size: 2rem;
+    }
 }
 
 .main__features {
@@ -314,7 +449,6 @@ img {
     }
 }
 
-
 .main__feature {
     display: flex;
     flex-direction: column;
@@ -331,6 +465,13 @@ img {
     .main__feature:nth-child(3) {
         width: 45%; 
         text-align: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main__feature {
+        padding: 10rem;
+        width: 30% !important;
     }
 }
 
