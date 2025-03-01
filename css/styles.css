@@ -66,7 +66,12 @@ img {
 
 .header__container {
     background-color:var(--primary);
+}
 
+@media (min-width: 768px) {
+    .header__container {
+        height: 50rem;
+    }
 }
 
 .header__bar {
@@ -104,12 +109,26 @@ img {
     width: 12rem;
 }
 
+@media (min-width: 768px) {
+    .header__col {
+        max-width: 40%;
+    }
+}
+
 .header__content {
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
     align-content: space-around;
     align-items: center;
+}
+
+@media (min-width: 768px) {
+    .header__content {
+        padding: 3rem;
+        flex-direction: row;
+        gap: 2rem;
+    }
 }
 
 .header__heading {
@@ -129,6 +148,39 @@ img {
     width: 75vw;
 }
 
+@media (min-width: 768px) {
+    .header__app {
+        width: 65%;
+    }
+}
+
+.header__join {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .header__join {
+        display: flex;
+    }
+}
+
+.header__ul {
+    display: none;
+
+}
+
+@media (min-width: 768px) {
+    .header__ul {
+        display: flex;
+        flex-direction: column;
+        list-style: outside;
+    }
+}
+
+.header__li {
+    color: var(--white);
+}
+
 .header__stars {
     font-size: 2.5rem;
     background: var(--yellow);
@@ -144,24 +196,57 @@ img {
     -webkit-text-fill-color: transparent;
 }
 
-.header__buttons {
-    margin-top: 4rem;
+.header__downloads {
+    margin-top: 3rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     gap: 2rem;
 }
 
+@media (min-width: 768px) {
+    .header__downloads {
+        flex-direction: row;
+        padding: 2rem 5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .header__ios {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        gap: 3rem;
+    }
+    .header__android {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        gap: 3rem;
+    }
+}
+
+.header__qr {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .header__qr {
+        display: flex;
+    }
+}
 .header__button {
-    width: 50vw;
+    width: 60vw;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.main {
-    margin-top: 3rem;
+@media (min-width: 768px) {
+    .header__button {
+        padding: 0 3rem;
+    }
 }
 
 .main__reviews {
@@ -171,6 +256,17 @@ img {
     justify-content: center;
     margin: auto;
     width: 70vw;
+    padding: 3rem 0;
+}
+
+@media (min-width: 768px) {
+    .main__reviews {
+        flex-direction: row;
+        align-items: start;
+        margin: auto;
+        gap: 3rem;
+        padding: 0 0 5rem 0;
+    }
 }
 
 .main__review__stars {
@@ -181,10 +277,13 @@ img {
     -webkit-text-fill-color: transparent;
 }
 
-.main__review {
-    margin: 2rem 0;
+@media (min-width: 768px) {
+    .main__review {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
 }
-
 .main__review__opinion {
     margin: 0;
 }
@@ -206,12 +305,33 @@ img {
     align-items: center;
 }
 
+@media (min-width: 768px) {
+    .main__features {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 5rem;
+    }
+}
+
+
 .main__feature {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .main__feature {
+        padding: 3rem;
+        width: 45%;
+    }
+    .main__feature:nth-child(3) {
+        width: 45%; 
+        text-align: center;
+    }
 }
 
 .main__feature__img {
@@ -226,7 +346,14 @@ img {
     background-color: var(--black);
 }
 
+@media (min-width: 768px) {
+    .footer {
+        height: 9rem;
+    }
+}
+
 .footer__link {
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -237,11 +364,23 @@ img {
 }
 
 .footer__img {
-    margin: 0 1rem;
     width: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .footer__img {
+        margin: 0 1rem;
+        width: 3.5rem;
+    }
 }
 
 .footer__description {
     font-size: 1.6rem;
     font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .footer__description {
+        font-size: 2.1rem;
+    }
 }
