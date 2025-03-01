@@ -5,6 +5,7 @@
     --login: #ffffff1a;
     --yellow: #fad541;
     --gray: #afafaf;
+    --gray-light: #f2f2f2;
     --white: #FFF;
     --black: #312e2b;
     --font: 'Poppins', sans-serif;
@@ -39,7 +40,7 @@ h2 {
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 h4 {
@@ -60,9 +61,12 @@ img {
 }
 
 .header {
-    background-color:var(--primary);
-    height: 50rem;
     color: var(--white);
+}
+
+.header__container {
+    background-color:var(--primary);
+
 }
 
 .header__bar {
@@ -100,10 +104,11 @@ img {
     width: 12rem;
 }
 
-.header__grid {
+.header__content {
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
+    align-content: space-around;
     align-items: center;
 }
 
@@ -137,4 +142,106 @@ img {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.header__buttons {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.header__button {
+    width: 50vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main {
+    margin-top: 3rem;
+}
+
+.main__reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 70vw;
+}
+
+.main__review__stars {
+    font-size: 4rem;
+    background: var(--yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main__review {
+    margin: 2rem 0;
+}
+
+.main__review__opinion {
+    margin: 0;
+}
+
+.main__review__reviewer {
+    margin: 1rem 0;
+}
+
+.main__review__description {
+    margin: 0;
+}
+
+.main__features {
+    padding-top: 4rem;
+    background-color: var(--gray-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main__feature__img {
+    width: 50vw;
+}
+
+.main__feature__description {
+    color: var(--black);
+}
+
+.footer {
+    background-color: var(--black);
+}
+
+.footer__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+    cursor: pointer;
+    text-decoration-style: none;
+}
+
+.footer__img {
+    margin: 0 1rem;
+    width: 2.5rem;
+}
+
+.footer__description {
+    font-size: 1.6rem;
+    font-weight: 700;
 }
