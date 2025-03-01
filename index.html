@@ -2,16 +2,53 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chess.com</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess.com App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <h1>
-        Just a simple project
-    </h1>
-    <img style="height: 300px; width: 1000px;" src="img/header_bg.svg" alt="Header">
+    <header class="header">
+        <div class="header__container">
+            <div class="header__bar">
+                <div class="header__logo">
+                    <img src="img/chess.com_logo.png" alt="logo chess.com">
+                </div>
+                <div class="header__auth">
+                    <div class="header__signup">Sign Up</div>
+                    <div class="header__login">Log In</div>
+                </div>
+            </div>
+
+            <div class="header__grid">
+                <div class="header__col">
+                    <h4 class="header__heading">Download the #1 Chess App</h4>
+                    <h5 class="header__rating">
+                        <div class="header__stars">★★★★<span class="header__laststar">★</span>
+                        </div>
+                        1,000,000+ Reviews
+                    </h5>
+                    <!-- <div class="header__buttons">
+                        <img class="header__button" src="img/app-store.png" alt="app ios chess.com">
+                        <img class="header__button" src="img/play-store.png" alt="app android chess.com">
+                    </div> -->
+                </div>
+
+                <div class="header__app">
+                    <img class="header__img" src="img/header.png" alt="img chess.com app">
+                </div>
+            </div>
+        </div>
+    </header>
+
 </body>
 
 </html>

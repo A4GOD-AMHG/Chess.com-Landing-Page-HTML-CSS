@@ -1,0 +1,140 @@
+:root {
+    --primary: #5d9948;
+    --secondary: #3a6b2d;
+    --signup: #81b64c;
+    --login: #ffffff1a;
+    --yellow: #fad541;
+    --gray: #afafaf;
+    --white: #FFF;
+    --black: #312e2b;
+    --font: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--font);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+    margin: 2rem 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4.6rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.header {
+    background-color:var(--primary);
+    height: 50rem;
+    color: var(--white);
+}
+
+.header__bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-color: var(--black);
+}
+
+.header__auth {
+    display: flex;
+    gap: 1rem;
+}
+
+.header__signup {
+    color: var(--white);
+    background-color: var(--signup);
+    padding: 2px 5px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header__login {
+    color: var(--white);
+    background-color: var(--login);
+    padding: 2px 5px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header__logo {
+    width: 12rem;
+}
+
+.header__grid {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__heading {
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.header__rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.header__app {
+    width: 75vw;
+}
+
+.header__stars {
+    font-size: 2.5rem;
+    background: var(--yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header__laststar {
+    background: linear-gradient(90deg, var(--yellow) 0, var(--yellow) 55%, var(--gray) 55%, var(--gray) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
