@@ -74,7 +74,7 @@ img {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .header__container {
         height: 65rem;
     }
@@ -88,7 +88,7 @@ img {
     background-color: var(--black);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .header__bar {
         height: 7rem;
     }
@@ -108,7 +108,7 @@ img {
     border-radius: 5px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .header__signup {
         padding: 4px 8px;
         font-size: 2rem;
@@ -124,7 +124,7 @@ img {
     border-radius: 5px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .header__login {
         padding: 4px 8px;
         font-size: 2rem;
@@ -135,7 +135,7 @@ img {
     width: 12rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .header__logo {
         width: 18rem;
         margin-left: 2rem;
@@ -149,7 +149,7 @@ img {
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .header__col {
         width: 40%;
     }
@@ -172,7 +172,7 @@ img {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .header__content {
         gap: 2rem;
         justify-content: space-between;
@@ -191,7 +191,7 @@ img {
     display: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .header__heading {
         font-size: 4rem;
     }
@@ -207,7 +207,7 @@ img {
     margin: 1.5rem 0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .header__rating {
         font-size: 2.5rem;
     }
@@ -223,7 +223,7 @@ img {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .header__app {
         width: 50%;
     }
@@ -239,7 +239,7 @@ img {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .header__join {
         font-size: 2.5rem;
         text-align: center;
@@ -258,7 +258,7 @@ img {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .header__ul {
         font-size: 2.3rem;
         margin-left: 10rem;
@@ -278,7 +278,7 @@ img {
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .header__stars {
         font-size: 4rem;
     }
@@ -307,7 +307,7 @@ img {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .header__downloads {
         width: 60vw;
         margin: auto;
@@ -340,7 +340,7 @@ img {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .header__qr {
         padding: 3rem;
     }
@@ -379,7 +379,7 @@ img {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .main__reviews {
         padding: 3rem;
         width: 50vw;
@@ -406,7 +406,7 @@ img {
     margin: 0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .main__review__opinion {
         font-size: 2rem;
     }
@@ -415,7 +415,7 @@ img {
     margin: 1rem 0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .main__review__reviewer {
         font-size: 2rem;
     }
@@ -425,7 +425,7 @@ img {
     margin: 0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .main__review__description {
         font-size: 2rem;
     }
@@ -468,7 +468,7 @@ img {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1040px) {
     .main__feature {
         padding: 10rem;
         width: 30% !important;
