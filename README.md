@@ -5,8 +5,14 @@ A simple Landing Page about the Chess.com App, was made in order to practice our
 ## Tech Stack
 
 <div align="center" style="display: flex; justify-content: center; gap: 30px;">
-  <img src="https://raw.githubusercontent.com/A4GOD-AMHG/Utils-for-repos/d5b0a3185c45db9cb33b073fa003c1f2169757ee/icons/html5/html5-plain-wordmark.svg" alt="html5" style="width: 100px;"/>
-  <img src="https://raw.githubusercontent.com/A4GOD-AMHG/Utils-for-repos/d5b0a3185c45db9cb33b073fa003c1f2169757ee/icons/css3/css3-plain-wordmark.svg" alt="css3" style="width: 100px;"/>
+  <div style="width: 100px;">
+    <img src="https://raw.githubusercontent.com/A4GOD-AMHG/Utils-for-repos/d5b0a3185c45db9cb33b073fa003c1f2169757ee/icons/html5/html5-original.svg" alt="html5"/>
+    <span style="font-size: 20px; font-weight: bold">HTML 5</span>
+  </div>
+  <div style="width: 100px;">
+    <img src="https://raw.githubusercontent.com/A4GOD-AMHG/Utils-for-repos/d5b0a3185c45db9cb33b073fa003c1f2169757ee/icons/css3/css3-original.svg" alt="css3"/>
+    <span style="font-size: 20px; font-weight: bold">CSS 3</span>
+  </div>
 </div>
 
 ## Features
