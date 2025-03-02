@@ -4,15 +4,9 @@ A simple Landing Page about the Chess.com App, was made in order to practice our
 
 ## Tech Stack
 
-<div align="center" style="display: flex; justify-content: center; gap: 30px;">
-  <div style="display: flex; flex-direction: column;">
-    <img style="width: 100px;" src="https://raw.githubusercontent.com/A4GOD-AMHG/Utils-for-repos/refs/heads/main/icons/html5/html5-original.svg" alt="html5"/>
-    <span style="font-size: 20px; font-weight: bold">HTML 5</span>
-  </div>
-  <div style="display: flex; flex-direction: column;">
-    <img style="width: 100px;" src="https://raw.githubusercontent.com/A4GOD-AMHG/Utils-for-repos/refs/heads/main/icons/css3/css3-original.svg" alt="css3"/>
-    <span style="font-size: 20px; font-weight: bold">CSS 3</span>
-  </div>
+<div style="display: flex; align-items: center;">
+  <img src="https://raw.githubusercontent.com/A4GOD-AMHG/Utils-for-repos/main/icons/html5/html5-original.svg" alt="html5" width="65" height="65" />
+  <img src="https://raw.githubusercontent.com/A4GOD-AMHG/Utils-for-repos/main/icons/css3/css3-original.svg" alt="css3" width="65" height="65" />
 </div>
 
 ## Features
