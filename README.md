@@ -26,10 +26,12 @@ git clone https://github.com/A4GOD-AMHG/Chess.com-Landing-Page-HTML-CSS.git
 
 ## Screenshots
 
-<div align="center" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin: 30px 0;">
-  <img src="./screenshots/mobile.png" alt="Mobile" style="width: 250px; margin: 10px;"/>
-  <img src="./screenshots/ipad.png" alt="iPad" style="width: 400px; margin: 10px;"/>
-  <img src="./screenshots/desktop.png" alt="Desktop" style="width: 600px; margin: 10px; max-width: 100%;"/>
-  <img src="./screenshots/desktop2.png" alt="Desktop" style="width: 600px; margin: 10px; max-width: 100%;"/>
-  <img src="./screenshots/desktop3.png" alt="Desktop" style="width: 600px; margin: 10px; max-width: 100%;"/>
-</div>
+![Mobile view](screenshots/mobile.png)
+![Ipad view](screenshots/ipad.png)
+![Desktop view](screenshots/desktop.png)
+![Desktop view 2](screenshots/desktop2.png)
+![Desktop view 3](screenshots/desktop3.png)
+
+## Author
+
+- Alexis Manuel Hurtado García (<https://github.com/A4GOD-AMHG>)
