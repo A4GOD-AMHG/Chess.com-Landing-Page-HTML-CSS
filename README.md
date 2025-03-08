@@ -35,3 +35,4 @@ git clone https://github.com/A4GOD-AMHG/Chess.com-Landing-Page-HTML-CSS.git
 ## Author
 
 - Alexis Manuel Hurtado García (<https://github.com/A4GOD-AMHG>)
+- Lianet Moreira Rodríguez (<https://github.com/liaMr0>)
